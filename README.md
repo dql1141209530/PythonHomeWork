@@ -1,2 +1,2 @@
-# PythonAlgorithmHomeWork
-LeetCode一部分题目的Python实现
+# PythonHomeWork
+> 给SSMC实验室伍老师直属小队的Python作业

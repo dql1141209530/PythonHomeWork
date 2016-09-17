@@ -1,0 +1,100 @@
+160917
+#Python作业
+##用Python解决下列算法问题:
+> 我在LeetCode上挑了5到很基础算法问题,输入输出格式已经写好了,剩下的只是往方法里填内容.
+> 虽然网上应该也找到答案,不过我建议实在不懂再看答案,看答案时只看解决问题的思路而不是代码,因为这些题只是为了让你们熟悉python的基础语法.
+
+###1. Remove Element
+> Given an array and a value, remove all instances of that value in place and return the new length.
+
+> Do not allocate extra space for another array, you must do this in place with constant memory.
+
+> The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+
+> Example:
+> Given input array nums = [3,2,2,3], val = 3
+
+> Your function should return length = 2, with the first two elements of nums being 2.
+*Code*:
+```
+class Solution(object):
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+```
+###2. Remove Duplicates from Sorted Array
+> Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+
+> Do not allocate extra space for another array, you must do this in place with constant memory.
+
+> For example,
+> Given input array nums = [1,1,2],
+
+> Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
+*Code*:
+```
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+```
+
+###3. Remove Duplicates from Sorted Array II
+> Follow up for "Remove Duplicates":
+What if duplicates are allowed at most twice?
+
+> For example,
+> Given sorted array nums = [1,1,1,2,2,3],
+
+> Your function should return length = 5, with the first five elements of nums being 1, 1, 2, 2 and 3. It doesn't matter what you leave beyond the new length.
+*Code*:
+```
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+```
+
+###4. Plus One
+> Given a non-negative number represented as an array of digits, plus one to the number.
+
+> The digits are stored such that the most significant digit is at the head of the list.
+*Code*:
+```
+class Solution(object):
+    def plusOne(self, digits):
+        """
+        :type digits: List[int]
+        :rtype: List[int]
+        """
+```
+
+###5. Pascal's Triangle
+> Given numRows, generate the first numRows of Pascal's triangle.
+> For example, given numRows = 5,
+> Return
+```
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
+```
+*Code*:
+```
+class Solution(object):
+    def generate(self, numRows):
+        """
+        :type numRows: int
+        :rtype: List[List[int]]
+        """
+```
